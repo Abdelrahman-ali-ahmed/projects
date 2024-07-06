@@ -1,0 +1,22 @@
+.Header{
+    height: 30px;
+    text-align: center;
+    background-color: brown;
+    color: #fff;
+    line-height: 35px;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+ul a{
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+
+}
+ul a:hover{
+    color: cadetblue;
+}
