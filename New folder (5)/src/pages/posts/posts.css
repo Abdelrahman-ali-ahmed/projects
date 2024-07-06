@@ -1,0 +1,56 @@
+.posts_div {
+  margin: 20px auto;
+  width: 70%;
+}
+
+/* No posts message */
+.posts_div p {
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Register section */
+.register_div {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.register {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  width: 40%;
+}
+
+/* Form styles */
+.register form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.register textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.register p.error {
+  color: red;
+  font-size: 14px;
+}
+
+.register button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}

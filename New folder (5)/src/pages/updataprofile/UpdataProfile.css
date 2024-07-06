@@ -1,0 +1,25 @@
+.register_div {
+  display: flex;
+
+  gap: 2rem;
+}
+
+.change {
+  background-color: rgb(23, 90, 171);
+  color: white;
+  /* font-weight: bold; */
+  width: fit-content;
+  padding: 15px 30px;
+  border-radius: 1rem;
+  font-size: 22px;
+  width: 90%;
+}
+
+.register-buttons {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+}

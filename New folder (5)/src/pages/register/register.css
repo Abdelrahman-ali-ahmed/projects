@@ -1,0 +1,41 @@
+.register_div{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    min-height: 100vh;
+    margin-left: 30%;
+}
+.register {
+    width: 70%;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    height: 30%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.register > form input {
+    border-radius: 20px;
+    border: 2px solid lightgrey;
+    outline: none;
+    color: #1d2129;
+    margin: 2% 0;
+    padding: 12px;
+    font-size: 16px;
+}
+.dis {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+
+

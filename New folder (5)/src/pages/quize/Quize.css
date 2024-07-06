@@ -1,0 +1,55 @@
+.register_div {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  min-height: 100vh;
+  margin-left: 30%;
+}
+
+.register {
+  width: 70%;
+  background: #fff;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+  height: 30%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.register form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register form div {
+  margin-bottom: 10px;
+}
+
+.register form input[type="radio"] {
+  margin-right: 5px;
+}
+
+.button_common {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button_common:hover {
+  background-color: #0056b3;
+}
+
+.disease {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+}

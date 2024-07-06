@@ -1,0 +1,67 @@
+.container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.circular-progress {
+  margin-top: 20px;
+}
+
+.error-message {
+  margin-top: 20px;
+}
+
+.question-container {
+  padding: 15px;
+}
+
+.question-number {
+  font-size: 24px;
+}
+
+.question-text {
+  margin-top: 5px;
+}
+
+.answer-button {
+  margin-top: 10px;
+}
+
+.back-button,
+.next-button {
+  margin-top: 20px;
+}
+
+.question-progress {
+  margin-top: 20px;
+}
+
+.container {
+  height: 100vh;
+  margin-top: 10rem;
+}
+
+.question {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+
+.answers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
