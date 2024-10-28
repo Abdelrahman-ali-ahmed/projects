@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body{ height: 100vh;
+    width: 100%;
+    background: #FF676D;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+body .container{
+    position: relative;
+    height:fit-content ;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color:  #fff;
+    padding: 35px 25px;
+    border-radius: 20px;
+}
+::selection{
+    background: #6d50e2;
+    color: #fff;
+  }
+.container .topic {
+position: relative;
+width:100% ;
+display: flex;
+justify-content: start;
+align-items: center;
+font-size: 22px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+.container .content{
+display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: space-between;
+}
+.container .content input{
+    display: none;
+}
+.container .content .list{
+    position: relative;
+    width: 15%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.container .content .list label{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    width: 100%;
+    padding: 10px;
+    height: max-content;
+    font-size: 18px;
+}
+.container .content .list label span{
+    display: flex;
+   align-items: center;
+}
+#home:checked ~ .list .home{
+background-color:#6d50e2 ;
+color: #fff;
+border-radius: 10px;
+}
+#about:checked ~ .list .about,
+#home:checked ~ .list .home,
+#code:checked ~ .list .code,
+#help:checked ~ .list .help,
+#blog:checked ~ .list .blog
+{
+background-color:#6d50e2 ;
+color: #fff;
+border-radius: 10px;
+    }
+#code:checked ~ .list .code{
+background-color:#6d50e2 ;
+color: #fff;
+border-radius: 10px;
+        }
+.container .content .list label:hover{
+  color: #6d50e2; ;
+}
+.container .content .list label span{
+    margin-left: 5px;
+}
+.container .content .text{
+    display: none;
+}
+.container .text-content{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+}
+
+
+#about:checked ~ .text-content .about,
+#home:checked ~ .text-content .home,
+#code:checked ~ .text-content .code,
+#help:checked ~ .text-content .help,
+#blog:checked ~ .text-content .blog{
+    display: initial;
+}
+.container .text-content .text .title{
+   font-size: 20px;
+   margin: 15px 0px;
+   font-weight: 500;
+
+}

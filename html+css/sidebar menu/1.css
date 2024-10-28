@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.sidebar{
+  position: fixed;
+  height: 100%;
+  width: 250px;
+  background:#042331;
+  color: #fff;
+  left: -250px;
+
+}
+.sidebar header{
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+  line-height: 70px;
+  background-color: #063146;
+  user-select: none;
+}
+.sidebar ul {
+ 
+}
+.sidebar ul li{
+  padding-left: 40px;
+   height: 100%;
+   width:100%;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid black;
+  transition: 0.4s;
+}
+ul li:hover {
+  padding-left: 50px;
+}
+.sidebar ul a{
+  display: inline;
+  line-height: 65px;
+  font-size: 20px;
+color: white;
+padding-left: 20px;
+color: #fff;
+}
+#check{
+  display: none;
+}
+label #btn,label #cancel{
+  position: absolute;
+  cursor: pointer;
+  background: #042331;
+  border-radius: 3px;
+  color: #fff;
+
+}
+label #btn{
+  left: 40px;
+  top: 25px;
+  font-size: 35px;
+  color: #fff;
+padding: 6px 12px;
+}
+label #cancel {
+  z-index: 1111;
+  left: 195px;
+  top: 17px;
+  font-size: 30px;
+  padding: 4px 9px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+#check:checked ~ .main_box .sidebar {
+  left: 0px;
+}
+
+#check:checked ~ label #btn {
+  opacity:0;
+  
+}
+
+#check:checked ~ label #cancel {
+  opacity: 1;
+ 
+}
+
+.social_media ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social_media ul a {
+  color: #fff;
+  font-size: 20px;
+}

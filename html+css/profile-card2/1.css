@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins',sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background: #fff;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  perspective: 1000px;
+}
+.card{
+    position: relative;
+    height:225px ;
+    width: 375px ;
+}
+.card .container{
+
+    position:absolute ;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    border-radius: 25px;
+    background: rgba(15, 13, 13, 0.884);
+    box-shadow: 0 25px 45px rgba(0,0,0,0.1) ;
+    border: 1px solid rgba(255,255,255,0.1);
+    backface-visibility: hidden;
+
+}
+.container .logo{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height:fit-content ;
+    width: 100% ;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    
+}
+.container header{
+    display: flex;
+    justify-content:space-between ;
+}
+.logo  .boimg{
+    
+    width: 50px;
+    margin-right: 10px;
+   
+    
+}
+header .chip{
+    
+    width: 50px;
+    
+    
+}
+.logo  h5{
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.container .card-details{
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 10px 0px;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.card-details .number-name{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    
+
+}
+.number-name h6{
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.number-name .number{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin:5px 0px ;
+}
+.number-name .name{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.card-details .validt{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    justify-content: end;
+
+}
+.validt h6{
+    font-weight: 400;
+}
+.validt h5{
+    font-size: 16px;
+    font-weight: 400;
+}
